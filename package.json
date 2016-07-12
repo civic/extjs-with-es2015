@@ -1,0 +1,20 @@
+{
+  "name": "extjs-with-es2015",
+  "version": "1.0.0",
+  "description": "This folder is primarily a container for the top-level pieces of the application. While you can remove some files and folders that this application does not use, be sure to read below before deciding what can be deleted and what needs to be kept in source control.",
+  "main": "app.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "webpack": "^1.13.1"
+  }
+}
